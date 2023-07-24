@@ -1,0 +1,82 @@
+.slick-slider {
+  .slick-prev {
+    left: 0;
+    height: 25%;
+    width: 10%;
+    z-index: 100;
+    background-color: #00000020;
+
+    border-radius: 0 50px 50px 0;
+    &::before {
+      content: "\f053";
+      font-family: "Font Awesome 5 Free";
+      color: $color-secondary;
+      font-size: 30px;
+      font-weight: 600;
+    }
+  }
+  .slick-next {
+    right: 0;
+    transition: color 0.3s;
+    height: 25%;
+    width: 10%;
+    z-index: 100;
+    background-color: #00000020;
+    border-radius: 50px 0 0 50px;
+    &::before {
+      content: "\f054";
+      font-family: "Font Awesome 5 Free";
+      color: $color-secondary;
+      font-size: 30px;
+      font-weight: 600;
+    }
+  }
+  .slick-list {
+    .slick-track {
+      display: flex;
+      align-items: center;
+      .slick-slide {
+        overflow: hidden;
+
+        img {
+          max-width: 560px;
+          height: auto;
+        }
+      }
+    }
+  }
+}
+.slick-lightbox-slick-img {
+  max-width: 100% !important;
+  height: auto;
+  opacity: 1 !important;
+}
+.slick-lightbox-slick {
+  .slick-prev {
+    height: 100%;
+    width: 5%;
+    border-radius: 0;
+    &::before {
+      font-size: 40px;
+    }
+  }
+  .slick-next {
+    height: 100%;
+    width: 5%;
+    border-radius: 0;
+    &::before {
+      font-size: 40px;
+    }
+  }
+}
+.slick-lightbox-close {
+  z-index: 150;
+  margin-right: 30px;
+  &::before {
+    content: "\f057";
+    font-family: "Font Awesome 5 Free";
+    font-size: 40px;
+    font-weight: 600;
+    color: $color-secondary;
+  }
+}

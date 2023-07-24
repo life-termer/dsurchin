@@ -1,0 +1,23 @@
+/* Global styles
+================================================== */
+
+html {
+  overflow-x: hidden !important;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+a:link,
+a:visited {
+  color: $color-primary;
+  text-decoration: none;
+}

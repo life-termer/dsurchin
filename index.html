@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="web developer, responsive web design, website design, wordpress theme development" />
+    <meta name="description" content="Front End Development" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <!-- CSS
+
+  
+        ================================================== -->
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css" />
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="plugins/fontawesome/css/all.min.css" />
+    <!-- Animation -->
+    <link rel="stylesheet" href="plugins/animate-css/animate.css" />
+    <!-- slick Carousel -->
+    <link rel="stylesheet" href="plugins/slick/slick.css" />
+    <link rel="stylesheet" href="plugins/slick/slick-theme.css" />
+    <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/slick-lightbox/0.2.12/slick-lightbox.css />
+    <!-- Template styles-->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Template custom JS -->
+    <script src="js/scripts.js"></script>
+    <title>Dmitry Surchin | Web Developer</title>
+  </head>
+  <body>
+    <!-- ==== HEADER ==== -->
+
+    <header>
+      <div class="menu-section">
+          <!-- Bootstrap navbar-->
+          <nav class="navbar navbar-light">
+            <div class="container-fluid">
+              <a class="navbar-brand wow fadeInDown" href="#header"
+                ><img src="images/logo-white.png" alt="logo"
+              /></a>
+              <button
+                class="navbar-toggler wow fadeInDown"
+                data-wow-delay="0.2s"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <i class="fas fa-bars"></i>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active wow fadeInDown"
+                      data-wow-delay="0.2s"
+                      aria-current="page"
+                      href="#header"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link wow fadeInDown"
+                      data-wow-delay="0.3s"
+                      href="#work"
+                      >Work</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link wow fadeInDown"
+                      data-wow-delay="0.4s"
+                      href="#services"
+                      >Services</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link wow fadeInDown"
+                      data-wow-delay="0.5s"
+                      href="#contact"
+                      >Contact</a
+                    >
+                  </li>
+                </ul>
+                <div class="contact-link wow fadeInDown"></div>
+              </div>
+            </div>
+          </nav>
+      </div>
+      <div class="hero-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-1"></div>
+            <div class="header-content-block col-xl-10">
+              <h1 class="wow fadeInLeft" data-wow-delay="0.8s">
+                I build <span>intelligent and impactful</span> websites that
+                work.
+              </h1>
+              <p class="wow fadeInLeft" data-wow-delay="1s">
+                Freelance Front End Developer based in Ljubljana, Slovenia. 
+                Able to build a Web presence from the ground up - from concept, 
+                navigation, layout and programming to UX and SEO. Skilled at 
+                writing well-designed, testable and efficient code using 
+                current best practices in Web development. 
+              </p>
+              <div class="button-primary wow fadeInUp" data-wow-delay="1.2s">
+                <a href="#work">
+                  <div class="button-text">See My Work</div>
+                  <div class="button-icon-wrapper">
+                    <i class="fas fa-caret-down"></i>
+                  </div>
+                  <div class="button-background">
+                    <div class="button-circle first"></div>
+                    <div class="button-circle second"></div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-xl-1"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ==== MAIN ==== -->
+
+    <main>
+      <section class="work-section">
+        <div class="container">
+          <div class="work-heading">
+            <h2 id="work" class="wow fadeInDown" data-wow-delay="0.2s">Featured <span>Work</span></h2>
+            <p class="wow zoomIn" data-wow-delay="0.4s">
+              Explore some of my latest website projects.
+          </div>
+          <div class="all-projects-wrapper">
+
+            <!-- Projects the first row-->
+            <div class="project-block row">
+
+              <!-- GreenDom project-->
+              <div class="projects-outer-wrapper col-6 wow fadeInLeft" data-wow-delay="0.6s">
+                <div class="project-image-wrapper">
+                  <div class="project-image-slider" id="green-dom">
+                    <div class="slider-item">
+                      <a href="images/work/green-dom/green-dom-01.jpg">
+                        <img
+                          data-lazy="images/work/green-dom/green-dom-01-thn.jpg"
+                          alt="green-dom"
+                        />
+                        </a>
+                    </div>
+                     <div class="slider-item">
+                      <a href="images/work/green-dom/green-dom-02.jpg">
+                        <img
+                          data-lazy="images/work/green-dom/green-dom-02-thn.jpg"
+                          alt="green-dom"
+                        />
+                        </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="project-content-wrapper">
+                  <h3>GreenDom website</h3>
+                  <p>Website for construction company HTML/CSS/JS</p>
+                </div>
+              </div> <!-- end of green-dom project -->
+
+              <!-- Marketing project-->
+              <div class="projects-outer-wrapper col-6 wow fadeInRight" data-wow-delay="0.8s" id="second-column">
+                <div class="project-image-wrapper">
+                  <div class="project-image-slider" id="marketing">
+                    <div class="slider-item">
+                      <a href="images/work/marketing/marketing-01.jpg">
+                        <img
+                          data-lazy="images/work/marketing/marketing-01-thn.jpg"
+                          alt="marketing"
+                        />
+                        </a>
+                    </div>
+                    <div class="slider-item">
+                      <a href="images/work/marketing/marketing-02.jpg">
+                        <img
+                          data-lazy="images/work/marketing/marketing-02-thn.jpg"
+                          alt="marketing"
+                        />
+                        </a>
+                    </div>
+                    
+                    <div class="slider-item">
+                      <a href="images/work/marketing/marketing-m.jpg">
+                        <img
+                          data-lazy="images/work/marketing/marketing-m-thn.jpg"
+                          alt="marketing"
+                        />
+                        </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="project-content-wrapper">
+                  <h3>Marketing website</h3>
+                  <p>Figma to HTML/CSS conversion</p>
+                </div>
+              </div> <!-- end of marketing project -->
+              
+            </div><!-- end of first row-->
+            
+            <!-- Projects the second row-->
+            <div class="project-block row">
+
+              <!-- Simple Food project-->
+              <div class="projects-outer-wrapper col-6 wow fadeInLeft" data-wow-delay="0.4s">
+                <div class="project-image-wrapper">
+                  <div class="project-image-slider" id="simple-food">
+                    <div class="slider-item">
+                      <a href="images/work//simple_food/simple-food-home1.jpg">
+                        <img
+                          data-lazy="images/work/simple_food/simple-food-home-thn.jpg"
+                          alt="simple-food"
+                        />
+                        </a>
+                    </div>
+                     <div class="slider-item">
+                      <a href="images/work//simple_food/simple-food-home2.jpg">
+                        <img
+                          data-lazy="images/work/simple_food/simple-food-home2-thn.jpg"
+                          alt="simple-food"
+                        />
+                        </a>
+                    </div>
+                    <div class="slider-item">
+                      <a href="images/work/simple_food/simple-food-single.jpg">
+                        <img
+                          data-lazy="images/work//simple_food/simple-food-single-thn.jpg"
+                          alt="simple-food"
+                        />
+                        </a>
+                    </div>
+                    
+                    <div class="slider-item">
+                      <a href="images/work/simple_food/simple-food-archive.jpg">
+                        <img
+                          data-lazy="images/work/simple_food/simple-food-archive-thn.jpg"
+                          alt="simple-food"
+                        />
+                        </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="project-content-wrapper">
+                  <h3>Simple Food blog</h3>
+                  <p>XD to Wordpress conversion</p>
+                </div>
+              </div> <!-- end of simple food project -->
+
+              <!-- Bakery project-->
+              <div class="projects-outer-wrapper col-6 wow fadeInRight" data-wow-delay="0.6s" id="second-column">
+                <div class="project-image-wrapper">
+                  <div class="project-image-slider" id="bakery">
+                    <div class="slider-item">
+                      <a href="images/work/bakery/bakery-header.jpg">
+                        <img
+                          data-lazy="images/work/bakery/bakery-header-thn.jpg"
+                          alt="bakery"
+                        />
+                        </a>
+                    </div>
+                    <div class="slider-item">
+                      <a href="images/work/bakery/bakery-01.jpg">
+                        <img
+                          data-lazy="images/work/bakery/bakery-01-thn.jpg"
+                          alt="bakery"
+                        />
+                        </a>
+                    </div>
+                    
+                    <div class="slider-item">
+                      <a href="images/work/bakery/bakery-02.jpg">
+                        <img
+                          data-lazy="images/work/bakery/bakery-02-thn.jpg"
+                          alt="bakery"
+                        />
+                        </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="project-content-wrapper">
+                  <h3>Bakery website</h3>
+                  <p>PSD to Wordpress conversion</p>
+                </div>
+              </div> <!-- end of bakery project -->
+
+            </div><!-- end of the first row-->
+
+            <div class="button-primary wow fadeInUp" data-wow-delay="0.2s"  id="button-show">
+              <a href="javascript:;" onclick="ShowAndHide()">
+                <div class="button-text">Show more</div>
+                <div class="button-icon-wrapper">
+                  <i class="fas fa-caret-down"></i>
+                </div>
+                <div class="button-background">
+                  <div class="button-circle first"></div>
+                  <div class="button-circle second"></div>
+                </div>
+              </a>
+            </div>
+
+            <!-- Projects the hidden row-->
+            <div class="project-block hide row" id="hidden-projects">
+              <p class="wow fadeInUp">There is nothing here yet...</p>
+            </div><!-- end of the hidden row-->
+
+          </div>
+          
+        </div>
+      </section>
+      <section class="services-section">
+        <div class="services-header wow fadeInLeftBig" data-wow-offset="350" id="services">
+          <div class="container ">
+            <h3>A structured approach</h3>
+            <p class="wow zoomIn" data-wow-delay="0.5s">
+              I help designers and businesses bring their ideas to life, 
+              I turn your requirements into websites - on time and on budget. 
+              My aim is to build practical applications that will be 100% 
+              successful.</p>
+            <img src="images/img_dots.svg" alt="dots">
+          </div>
+        </div>
+        </div>
+        <div class="services-content">
+          <div class="container">
+            <h3>services I offer</h3>
+            <h2 class="wow fadeInDown" data-wow-delay="0.2s">The goal isn’t to <span>build a website but to build your business</span></h2>
+            <div class="services-points-wrapper row">
+              <div class="services-points-outer-wrapper first col-xl-3 col-md-5">
+                <div class="service-point-block wow fadeInUp" data-wow-delay="0.5s">
+                  <div class="service-point-inner-block">
+                    <div class="service-type">Website Development</div>
+                    <div class="service-type-background-on-hover"></div>
+                  </div>
+                  <img src="images/ico_check.svg" 
+                    alt="" class="check-icon-image">
+                </div>
+                <div class="service-point-block wow fadeInUp" data-wow-delay="0.6s">
+                  <div class="service-point-inner-block">
+                    <div class="service-type">Optimization</div>
+                    <div class="service-type-background-on-hover"></div>
+                  </div>
+                  <img src="images/ico_check.svg" 
+                    alt="" class="check-icon-image">
+                </div>
+                <div class="service-point-block wow fadeInUp" data-wow-delay="0.7s">
+                  <div class="service-point-inner-block">
+                    <div class="service-type">Content Management</div>
+                    <div class="service-type-background-on-hover"></div>
+                  </div>
+                  <img src="images/ico_check.svg" 
+                    alt="" class="check-icon-image">
+                </div>
+                <div class="service-point-block wow fadeInUp" data-wow-delay="0.8s">
+                  <div class="service-point-inner-block">
+                    <div class="service-type">UI/Ux Design</div>
+                    <div class="service-type-background-on-hover"></div>
+                  </div>
+                  <img src="images/ico_check.svg" 
+                    alt="" class="check-icon-image">
+                </div>
+                <div class="service-point-block wow fadeInUp" data-wow-delay="0.9s">
+                  <div class="service-point-inner-block">
+                    <div class="service-type">Website Design</div>
+                    <div class="service-type-background-on-hover"></div>
+                  </div>
+                  <img src="images/ico_check.svg" 
+                    alt="" class="check-icon-image">
+                </div>
+              </div>
+              <div class="services-points-outer-wrapper col-xl-3 col-md-5">
+                <div class="service-point-block wow fadeInUp" data-wow-delay="0.5s">
+                  <div class="service-point-inner-block">
+                    <div class="service-type">Responsive Web Design</div>
+                    <div class="service-type-background-on-hover"></div>
+                  </div>
+                  <img src="images/ico_check.svg" 
+                    alt="" class="check-icon-image">
+                </div>
+                <div class="service-point-block wow fadeInUp" data-wow-delay="0.6s">
+                  <div class="service-point-inner-block">
+                    <div class="service-type">Custom WordPress Theme Development</div>
+                    <div class="service-type-background-on-hover"></div>
+                  </div>
+                  <img src="images/ico_check.svg" 
+                    alt="" class="check-icon-image">
+                </div>
+                <div class="service-point-block wow fadeInUp" data-wow-delay="0.7s">
+                  <div class="service-point-inner-block">
+                    <div class="service-type">PSD to HTML/CSS</div>
+                    <div class="service-type-background-on-hover"></div>
+                  </div>
+                  <img src="images/ico_check.svg" 
+                    alt="" class="check-icon-image">
+                </div>
+                <div class="service-point-block wow fadeInUp" data-wow-delay="0.8s">
+                  <div class="service-point-inner-block">
+                    <div class="service-type">PSD to Wordpress</div>
+                    <div class="service-type-background-on-hover"></div>
+                  </div>
+                  <img src="images/ico_check.svg" 
+                    alt="" class="check-icon-image">
+                </div>
+                <div class="service-point-block wow fadeInUp" data-wow-delay="0.9s">
+                  <div class="service-point-inner-block">
+                    <div class="service-type">Website Cloning </div>
+                    <div class="service-type-background-on-hover"></div>
+                  </div>
+                  <img src="images/ico_check.svg" 
+                    alt="" class="check-icon-image">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact-section wow fadeInLeftBig" data-wow-offset="350">
+        <div class="contact-header" id="contact">
+          <div class="container">
+            <h3>work with me</h3>
+            <h2 class="wow rotateIn" data-wow-delay="0.5s">Let’s work together to <span>build something great.</span></h2>
+            <img src="images/img_dots.svg" alt="dots">
+            <div class="button-primary">
+                <a href="mailto:dsurchin@gmail.com">
+                  <div class="button-text">Say hello</div>
+                  <div class="button-icon-wrapper">
+                    <i class="fas fa-caret-down"></i>
+                  </div>
+                  <div class="button-background">
+                    <div class="button-circle first"></div>
+                    <div class="button-circle second"></div>
+                  </div>
+                </a>
+              </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ==== FOOTER ==== -->
+
+    <footer>
+      <div class="footer-container container">
+        <div class="row">
+          <div class="footer-content col-md-6">
+            <div class="footer-logo">
+              <img src="images/logo.png" alt="logo">
+            </div>
+            <div class="footer-content-holder">
+              <p>Making great things, maximizing business goals.</p>
+            </div>
+            <div class="footer-social-links">
+              <a href="https://github.com/life-termer" target="_blanc"><i class="fab fa-github-square"></i></a>
+              <a href="https://www.linkedin.com/in/dmitry-surchin-17081984/" target="_blanc"><i class="fab fa-linkedin"></i></a>
+              <a href="https://www.facebook.com/d.surchin" target="_blanc"><i class="fab fa-facebook-square"></i></a>
+            </div>
+          </div>
+          <div class="footer-contact col-md-6">
+            <div class="footer-contact-header">
+              <p>get in touch</p>
+            </div>
+            <div class="footer-link email">
+              <a href="mailto:dsurchin@gmail.com">
+                <i class="far fa-envelope"></i>
+                <span>dsurchin@gmail.com</span>
+              </a>
+              <div class="footer-underline"></div>
+            </div>
+            <div class="footer-link tel">
+              <a href="https://wa.me/38651896611" target="_blanc">
+                <i class="fab fa-whatsapp"></i>
+                <span>(386) 51 896 611</span>
+              </a>
+              <div class="footer-underline"></div>
+            </div>
+            <div class="footer-contact-copyright">
+              <p>&copy; 2022 <span>dsurch.in</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Javascript Files
+        ================================================== -->
+
+    <!-- initialize jQuery Library -->
+    <script src="plugins/jQuery/jquery.min.js"></script>
+    <!-- Bootstrap jQuery -->
+    <script src="plugins/bootstrap/bootstrap.min.js" defer></script>
+    <!-- Slick Carousel -->
+    <script src="plugins/slick/slick.min.js"></script>
+    <script src="plugins/slick/slick-animation.min.js"></script>
+    <script src=https://cdnjs.cloudflare.com/ajax/libs/slick-lightbox/0.2.12/slick-lightbox.min.js></script>
+    <!-- wow animation -->
+    <script src="plugins/wow/wow.min.js"></script>
+    <!-- Template custom JS -->
+    <script src="js/scripts.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3N1G4ZMNBH"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-3N1G4ZMNBH');
+    </script>
+  </body>
+</html>

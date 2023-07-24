@@ -1,0 +1,57 @@
+.button-primary {
+  display: inline-block;
+  a {
+    position: relative;
+    display: flex;
+    width: 200px;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 20px;
+    font-family: $font-secondary;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  .button-text {
+    position: relative;
+    z-index: 2;
+  }
+  .button-icon-wrapper {
+    margin-left: 15px;
+    z-index: 2;
+    font-size: 1.5rem;
+  }
+  .button-background {
+    position: absolute;
+    width: 4%;
+    height: 60px;
+    z-index: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: $color-primary;
+    transition: width 0.5s;
+    .button-circle {
+      position: absolute;
+      z-index: 1;
+      width: 60px;
+      height: 60px;
+      border-radius: 50px;
+      background-color: $color-primary;
+    }
+    .first {
+      margin-right: -32px;
+    }
+    .second {
+      left: 0px;
+      margin-left: -25px;
+    }
+  }
+  &:hover {
+    .button-background {
+      width: 90%;
+    }
+  }
+}
